@@ -1,0 +1,223 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+body {
+	padding: 1%;
+	background-color: rgb(53, 153, 136); 
+	/* background-image: -moz-linear-gradient(top, rgba(236,232,157,1) 0%, rgba(94,83,115,1) 50%, rgba(24,181,164,1) 100%);
+	background-image: -webkit-linear-gradient(top, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%); 
+	background-image: linear-gradient(to bottom, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%); */
+}
+header.background{
+	background: #007765;
+	width: 98%;
+	height: 84px;
+}
+
+header.menu{
+	
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	padding-top: 25px;
+	padding-right: 60px;
+	padding-left: 60%;
+}
+header.menu:hover{
+	color: #1a26c7;
+}
+header.menu:visited{
+	color: #3bd14f;
+	text-shadow: 30px 30px 30px #000000;
+}
+header.logo{
+	position: relative;
+	bottom: 32px;
+	left: 15px;
+
+}
+
+div.astline__background{
+	background-image: url('../img/image.png');
+	height: 403px;
+	width: 98%; 
+    background-position: center; 	
+
+}
+
+
+div.astline__text{
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 84px;
+	text-align: center;
+	position: relative;
+	top: 150px;
+}
+
+div.theproblem{
+	background: #EEEEEE;
+	height: 719px;
+	width: 98%;
+}
+div.theproblem_header{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+	padding-top: 40px;
+    margin-bottom: 40px;
+	text-shadow: 2px 1px 0px #000000;
+}
+div.theproblem_text{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 37px;
+	color: #000000;
+	text-align: center;
+	position: relative;
+	left: 250px;
+	width: 70%;
+	line-height: 31px;
+
+}
+
+
+
+.theproblem_text span{
+	font-weight: 700;
+
+
+}
+.theproblem_text p{
+    margin-bottom: 0px;
+}
+
+div.hero{
+	background-image: url('../img/Hero.png');
+	height: 403px;
+	width: 98%; 
+}
+
+div.hero_text{
+	font-family: Roboto;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	padding-top: 90px;
+
+	color: #FFFFFF;
+}
+
+
+div.theteam{
+	background: #EEEEEE;
+	height: 900px;
+	width: 98%; 
+}
+
+div.theteam_text{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	/* identical to box height */
+	text-align: center;
+	padding-top: 60px;
+	color: #007765;
+	padding-bottom: 40px;
+}
+
+footer.background{
+	background: #333333;
+	height: 176px;
+		width: 98%;
+
+}
+footer.background_text{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 60px;
+
+}
+
+
+.block{
+	/* color: red; */
+	text-align: center;
+	padding-right: 25%;
+	padding-left: 25%;
+}
+.block__row{
+	/* border: 1px solid #ece89d;  */
+	display:flex; 
+	width: 950px; 
+	text-align: center;
+	flex-wrap:wrap;
+
+}
+.block__element{
+	color: #007765;
+}
+.block__content{
+	/* background-color: #d2e9d4; */
+	width: 290px;
+	height: 300px; 
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #007765;
+
+}
+.block__content_img{
+	padding-top: 9px;
+	padding-bottom: 15px;
+}
+
+.block__content span{
+	font-family: Roboto;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+}
+
+
+
